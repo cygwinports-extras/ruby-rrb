@@ -1,0 +1,9 @@
+ORIG_PN="rrb"
+
+inherit ruby
+
+DESCRIPTION="Ruby Refactoring Browser"
+HOMEPAGE="http://www.kmc.gr.jp/proj/rrb/index-en.html"
+SRC_URI="mirror://rubyforge/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
+
+DOCS="NEWS.* README.*"

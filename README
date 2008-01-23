@@ -1,0 +1,101 @@
+ruby-rrb
+------------------------------------------
+Ruby Refactoring Browser is a refactoring browser for ruby script.
+
+Refactoring is a technique of restructuring an existing code, modifying
+its internal structure, without changing its external behavior.
+
+This software make you free from lapsible routine work like renaming
+methods,renaming variables and extracting methods.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  ruby-1.8.6-1
+
+Build requirements:
+  cygwin-1.5.25-7
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ruby-1.8.6-1
+
+Canonical website:
+  http://www.kmc.gr.jp/proj/rrb/index-en.html
+
+Canonical download:
+  http://rubyforge.org/frs/?group_id=663
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-rrb-0.1.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-rrb-0.1.1-X.cygport all
+
+This will create:
+  /usr/src/ruby-rrb-0.1.1-X-src.tar.bz2
+  /usr/src/ruby-rrb-0.1.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/artags
+  /usr/bin/rrb
+  /usr/bin/rrbcui
+  /usr/bin/rrb_compinfo
+  /usr/bin/rrb_default_value
+  /usr/bin/rrb_marshal
+  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/rrb_reflection.so
+  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/rrb_ripper.so
+  /usr/lib/ruby/site_ruby/1.8/rrb/common_visitor.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/completion.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/cui_interface.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/default.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/default_value.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/dumped_info.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/dump_modules.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/emacs_interface.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/extract_method.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/extract_superclass.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/move_method.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/node.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/parser.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/pullup_method.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/pushdown_method.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/remove_parameter.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/rename_class_var.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/rename_constant.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/rename_global_var.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/rename_instance_var.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/rename_local_var.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/rename_method.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/rename_method_all.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/ripper.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/rrb.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/script.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/scriptfile.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/utils.rb
+  /usr/lib/ruby/site_ruby/1.8/rrb/vim_interface.rb
+  /usr/share/doc/Cygwin/ruby-rrb-0.1.1.README
+  /usr/share/doc/ruby-rrb-0.1.1/NEWS.en
+  /usr/share/doc/ruby-rrb-0.1.1/NEWS.ja
+  /usr/share/doc/ruby-rrb-0.1.1/README.en
+  /usr/share/doc/ruby-rrb-0.1.1/README.ja
+
+------------------
+
+Port Notes:
+
+----- version 0.1.1-2 -----
+Rebuilt with cygport.
+
+----- version 0.1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
