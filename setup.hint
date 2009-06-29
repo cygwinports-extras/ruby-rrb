@@ -1,5 +1,5 @@
 category: Ruby
-requires: cygwin ruby
+requires: ruby
 sdesc: "Ruby Refactoring Browser module"
 ldesc: "Ruby Refactoring Browser is a refactoring browser for ruby script.
 
